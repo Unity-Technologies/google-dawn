@@ -1,6 +1,6 @@
 module dawn.googlesource.com/dawn
 
-go 1.23.0
+go 1.24.0
 
 require (
 	cloud.google.com/go/bigquery v1.52.0
@@ -17,8 +17,8 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/jsonc v0.3.2
 	go.chromium.org/luci v0.0.0-20230311013728-313c8e2205bc
-	golang.org/x/net v0.40.0
-	golang.org/x/term v0.32.0
+	golang.org/x/net v0.47.0
+	golang.org/x/term v0.37.0
 	google.golang.org/api v0.132.0
 	google.golang.org/grpc v1.56.3
 )
@@ -67,13 +67,14 @@ require (
 	github.com/texttheater/golang-levenshtein v1.0.1 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.38.0 // indirect
-	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
 	golang.org/x/oauth2 v0.10.0 // indirect
-	golang.org/x/sync v0.14.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.8-0.20221117013220-504804fb50de // indirect
 	google.golang.org/genproto v0.0.0-20230706204954-ccb25ca9f130 // indirect
